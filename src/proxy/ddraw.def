@@ -1,0 +1,4 @@
+LIBRARY DDraw
+EXPORTS
+    DirectDrawCreate=Proxy_DirectDrawCreate
+    DirectDrawEnumerateA=Proxy_DirectDrawEnumerateA

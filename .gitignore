@@ -1,0 +1,26 @@
+# build output
+out/
+tools/logger/out/
+*.obj
+*.lib
+*.exp
+*.pdb
+*.ilk
+__pycache__/
+
+# Dweep Gold is commercial software (Dexterity Software): never commit the game, its data,
+# or anything derived from it (Ghidra database, decompiled / disassembled code)
+game/
+re/ghidra/
+re/output/
+*.exe
+*.DAT
+*.DWP
+*.DWM
+
+# local settings, saves and logs
+DweepD2D_log.txt
+DweepSave.ini
+*.reg
+re/scripts/paths.local.ps1
+dist/

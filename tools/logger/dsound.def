@@ -1,0 +1,6 @@
+LIBRARY DSOUND
+EXPORTS
+    DirectSoundCreate=Proxy_DirectSoundCreate @1
+    DirectSoundEnumerateA=Proxy_DirectSoundEnumerateA @2
+    DirectSoundEnumerateW=Proxy_DirectSoundEnumerateW @3
+    DirectSoundCreate8=Proxy_DirectSoundCreate8 @11
